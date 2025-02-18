@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Customer Css */
+.mycontainer{
+  @apply !mx-auto w-[50%] text-white py-5;
+}
